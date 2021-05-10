@@ -1,0 +1,67 @@
+.comment {
+  border-left: 1px solid rgb(139, 137, 137);
+  border-bottom: 2px solid rgb(54, 53, 53);
+  margin-bottom: 28px;
+}
+
+.comment-box {
+  padding-bottom: 10px;
+  padding-left: 14px;
+  border-bottom: 1px solid rgb(139, 137, 137);
+}
+
+.comment-head {
+  margin-bottom: 4px;
+}
+
+.comment-head > h6 {
+  font-size: 1rem;
+  display: inline-block;
+  margin-right: 10px;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.comment-head > span {
+  display: inline-block;
+  white-space: nowrap;
+  opacity: 0.5;
+}
+
+.comment-createdAt {
+  margin-left: 14px;
+}
+
+.comment-footer {
+  margin-top: 14px;
+  white-space: nowrap;
+  opacity: 0.6;
+}
+
+.votes {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.votes > i {
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+.comment-like-count {
+  margin-right: 6px;
+}
+
+.comment-delete {
+  margin-left: 22px;
+}
+
+.reply-icon {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.reply-comment {
+  margin: 16px;
+}

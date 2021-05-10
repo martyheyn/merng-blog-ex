@@ -1,0 +1,146 @@
+.full-create-post {
+  display: grid;
+}
+
+.go-back {
+  margin: 22px 64px 0px;
+  height: 44px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.create-post-tag-label {
+  color: rgb(135, 132, 132);
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.create-post-tags {
+  color: rgb(135, 132, 132);
+  width: 200px;
+  height: 26px;
+  border: 1px solid #ccc;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.create-post-box {
+  border: 1px solid #ccc;
+  padding: 12px;
+}
+
+.active {
+  color: rgba(23, 112, 220, 0.874);
+  border-bottom: 5px solid rgba(23, 112, 220, 0.874);
+}
+
+.active:hover {
+  background-color: rgba(93, 156, 234, 0.874);
+}
+
+.create-post-tabs {
+  display: inline-flex;
+  flex-direction: row;
+  color: rgb(135, 132, 132);
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 60px;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+
+.create-post-tabs > div {
+  display: flex;
+  border: 1px solid #ccc;
+  width: 50%;
+  height: 60px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.create-post-tabs > div:hover {
+  background-color: rgb(203, 196, 196);
+}
+
+.create-post-tabs-post {
+}
+
+.create-post-tabs-image {
+}
+
+.create-post-tabs-links {
+}
+
+.create-post-input {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+
+.create-post-title {
+  height: 32px;
+  width: 100%;
+  border: 1px solid #ccc;
+  /* margin: 1% 0 0; */
+  text-indent: 10px;
+}
+
+.create-post-text {
+  min-height: 200px;
+  width: 100%;
+}
+
+.create-post-text > textarea {
+  min-height: 195px;
+  width: 100%;
+  text-indent: 10px;
+  resize: vertical;
+  border: 1px solid #ccc;
+}
+
+.create-post-upload {
+  min-height: 200px;
+  width: 100%;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+.create-post-upload > input {
+  margin: 80px 275px;
+}
+
+.create-post-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.create-post-submit-button {
+  padding: 8px 20px;
+  border-radius: 10px;
+  margin: 10px 30px 0px 0px;
+  border: 1px solid #ccc;
+}
+
+.create-post-submit-button:hover {
+  color: white;
+  background-color: rgb(171, 166, 166);
+}
+
+.create-post-tags-button {
+  padding: 8px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px 10px 0px 0px;
+  border: 1px solid #ccc;
+}
+
+.create-post-tags-button:hover {
+  color: white;
+  background-color: rgb(171, 166, 166);
+}
+
+.create-post-sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}

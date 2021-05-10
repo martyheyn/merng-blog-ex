@@ -1,0 +1,14 @@
+.select-label {
+  color: rgb(135, 132, 132);
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.select-options {
+  color: rgb(135, 132, 132);
+  width: 200px;
+  height: 26px;
+  border: 1px solid #ccc;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,35 @@
+.edit-user {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.edit-user-submit {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.edit-profile-input {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.edit-profile-input-field {
+  /* margin: 100px; */
+}
+
+.edit-profile-submit {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.edit-profile-button {
+  cursor: pointer;
+}
+
+.edit-profile-cancel {
+  margin-right: 12px;
+  cursor: pointer;
+}

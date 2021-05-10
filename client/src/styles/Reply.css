@@ -1,0 +1,54 @@
+.reply {
+  padding-left: 14px;
+  margin: 20px 0px 20px 20px;
+  border-left: 1px solid rgb(139, 137, 137);
+  border-bottom: 1px solid rgb(139, 137, 137);
+}
+
+.reply-head {
+  margin-bottom: 4px;
+}
+
+.reply-head > h6 {
+  font-size: 1rem;
+  display: inline-block;
+  margin-right: 10px;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.reply-head > span {
+  display: inline-block;
+  white-space: nowrap;
+  opacity: 0.5;
+}
+
+.reply-createdAt {
+  margin-left: 14px;
+}
+
+.reply-footer {
+  margin-top: 14px;
+  white-space: nowrap;
+  opacity: 0.6;
+}
+
+.reply-votes {
+    display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 12px;
+}
+
+.reply-votes  > i {
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+.reply-like-count {
+  margin-right: 6px;
+}
+
+.reply-delete {
+  margin-left: 10px;
+}
